@@ -13,7 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.learn.accesscontrol.domain;
+package com.learn.accesscontrol.mapper;
+
+import com.learn.accesscontrol.common.mapper.BaseMapper;
+import com.learn.accesscontrol.domain.Employee;
 
 /**
  * <p> Title: </p>
@@ -22,25 +25,7 @@ package com.learn.accesscontrol.domain;
  *
  * @author: Guo Weifeng
  * @version: 1.0
- * @create: 2020/6/30 9:12
+ * @create: 2020/6/30 10:18
  */
-public class Permission extends BaseDomain {
-    private String express;
-    private String sn;
-
-    public String getExpress() {
-        return express;
-    }
-
-    public void setExpress(String express) {
-        this.express = express;
-    }
-
-    public String getSn() {
-        return sn;
-    }
-
-    public void setSn(String sn) {
-        this.sn = sn;
-    }
+public interface EmployeeMapper extends BaseMapper<Employee> {
 }

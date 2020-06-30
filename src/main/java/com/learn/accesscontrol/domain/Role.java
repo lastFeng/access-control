@@ -28,6 +28,7 @@ import java.util.List;
  */
 public class Role extends BaseDomain {
     private String name;
+    private String sn;
     private List<Permission> permissions;
     private List<Menu> menus;
 
@@ -37,6 +38,14 @@ public class Role extends BaseDomain {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getSn() {
+        return sn;
+    }
+
+    public void setSn(String sn) {
+        this.sn = sn;
     }
 
     public List<Permission> getPermissions() {

@@ -5,6 +5,6 @@
     <resultMap id="resultMap" type="com.learn.accesscontrol.domain.Permission">
         <id column="id" property="id" />
         <result column="express" property="express" />
-        <result column="sn" property="sn" />
+        <result column="name" property="name" />
     </resultMap>
 </mapper>

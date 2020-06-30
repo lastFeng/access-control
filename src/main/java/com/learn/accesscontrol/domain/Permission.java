@@ -26,7 +26,7 @@ package com.learn.accesscontrol.domain;
  */
 public class Permission extends BaseDomain {
     private String express;
-    private String sn;
+    private String name;
 
     public String getExpress() {
         return express;
@@ -36,11 +36,11 @@ public class Permission extends BaseDomain {
         this.express = express;
     }
 
-    public String getSn() {
-        return sn;
+    public String getName() {
+        return name;
     }
 
-    public void setSn(String sn) {
-        this.sn = sn;
+    public void setName(String name) {
+        this.name = name;
     }
 }

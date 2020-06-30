@@ -9,7 +9,7 @@
         <collection property="permissions" column="permission_id" ofType="com.learn.accesscontrol.domain.Permission">
             <id column="id" property="id"/>
             <result column="express" property="express" />
-            <result column="sn" property="sn"/>
+            <result column="name" property="name"/>
         </collection>
         <collection property="menus" column="menu_id" ofType="com.learn.accesscontrol.domain.Menu">
             <id column="id" property="id" />
